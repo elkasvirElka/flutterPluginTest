@@ -1,0 +1,11 @@
+framework module ProjectA {
+  umbrella header "ProjectA.h"
+
+  export *
+  module * { export * }
+}
+
+module ProjectA.Swift {
+  header "ProjectA-Swift.h"
+  requires objc
+}

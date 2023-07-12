@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = 'Test flutter plugin'
   s.description      = <<-DESC
+
 Test flutter plugin
                        DESC
   s.homepage         = 'http://example.com'
@@ -20,4 +21,7 @@ Test flutter plugin
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
+  s.preserve_paths = 'ProjectB.xcframework/**/*'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework ProjectB' }
+  s.vendored_frameworks = 'ProjectB.xcframework'
 end

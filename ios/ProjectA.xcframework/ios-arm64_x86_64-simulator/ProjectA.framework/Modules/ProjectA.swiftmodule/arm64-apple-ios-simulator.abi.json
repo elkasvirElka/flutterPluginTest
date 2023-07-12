@@ -1,0 +1,89 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProjectA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestClass",
+        "printedName": "TestClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestClass",
+                "printedName": "ProjectA.TestClass",
+                "usr": "s:8ProjectA9TestClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8ProjectA9TestClassCACycfc",
+            "mangledName": "$s8ProjectA9TestClassCACycfc",
+            "moduleName": "ProjectA",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "summ",
+            "printedName": "summ(a:b:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ProjectA9TestClassC4summ1a1bS2i_SitF",
+            "mangledName": "$s8ProjectA9TestClassC4summ1a1bS2i_SitF",
+            "moduleName": "ProjectA",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8ProjectA9TestClassC",
+        "mangledName": "$s8ProjectA9TestClassC",
+        "moduleName": "ProjectA",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
